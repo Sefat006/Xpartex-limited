@@ -33,8 +33,6 @@ const BrandValues = () => {
                     <p className="mb-6">
                     Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
                     </p>
-                    
-                    {/* i could've used link here but as i am not using router, thats why i used attribute */}
                     <a to="" className="btn btn-primary">
                     Learn More
                     </a>

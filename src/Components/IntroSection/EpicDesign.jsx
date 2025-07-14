@@ -7,7 +7,7 @@ const EpicDesign = () => {
     return (
         <div>
             <div  className='text-black justify-center text-center space-y-4 flex flex-col'>
-                <h1 className=' font-bold text-4xl'>Epic Design and Engineering</h1>
+                <h1 className=' font-bold text-2xl md:text-4xl'>Epic Design and Engineering</h1>
                 <p className='max-w-2xl mx-auto'>Lorem ipsum    dolor, sit amet consectetur adipisicing    elit. Id ipsam cumque facere totam cum illum   laudantium rem omnis, ratione iure ducimus,   laboriosam molestias? Rem omnis iste  eligendi sint enim? Ducimus.</p>
             </div>
             

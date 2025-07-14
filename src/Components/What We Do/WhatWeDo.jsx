@@ -31,13 +31,13 @@ const WhatWeDo = () => {
         ];
 
     return (
-        <div className='bg-black text-white pt-16 space-y-20'>
+        <div className='bg-black text-white pt-16'>
 
             <div  className='text-[#FFD700] justify-center text-center space-y-4 flex flex-col'>
-                <h1 className=' font-bold text-4xl'>Epic Design and Engineering</h1>
+                <h1 className=' font-bold text-4xl'>What We do</h1>
             </div>
 
-            <div className='grid grid-cols-3 gap-10 text-center'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-10 pt-12 md:pt-0 text-center'>
                 {
                     services.map( (service,id) => <Lists key={id} service={service}></Lists>)
                 }

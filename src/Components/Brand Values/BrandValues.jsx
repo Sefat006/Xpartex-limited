@@ -26,12 +26,12 @@ const BrandValues = () => {
             className="w-1/2 max-w-md h-auto object-cover rounded-lg shadow-lg floating-slow absolute right-1/4 top-[70%] translate-x-1/2 -translate-y-1/2 z-0"
             />
 
-            <div className="relative z-10 bg-black bg-opacity-90 text-white p-8 rounded-lg max-w-md text-center shadow-lg">
-                    <h2 className="text-3xl font-bold mb-4">Brand Values</h2>
-                    <p className="mb-6">
+            <div className="relative z-10 bg-black bg-opacity-90 text-white md:p-8 rounded-lg w-1/2 md:max-w-md text-center p-5 pb-3 shadow-lg">
+                    <h2 className="text-xl mt-1 md:text-3xl font-bold mb-4">Brand Values</h2>
+                    <p className="text-sm mb-6">
                     Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
                     </p>
-                    <Link className="btn btn-primary">Learn More</Link>
+                    <Link className="btn btn-primary ">Learn More</Link>
             </div>
         </div>
 

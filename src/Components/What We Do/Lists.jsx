@@ -9,7 +9,7 @@ const Lists = ( {service} ) => {
         ];
 
     return (
-        <div className="mx-auto p-19 rounded-lg shadow-md">
+        <div className="mx-auto p-5 md:p-8 lg:p-19">
             <h3 className="text-xl font-semibold mb-4 text-left text-[#FFD700]">  {service.title}</h3>
             <ul className="list list-inside space-y-2 text-left">
             {allItems.map((item, idx) => (

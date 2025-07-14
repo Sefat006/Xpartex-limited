@@ -20,7 +20,7 @@ const Portfolio = () => {
     return (
         <div className='bg-gray-800 p-20 space-y-10'>
             <div  className='text-White justify-center text-center space-y-4 flex flex-col'>
-                <h1 className=' font-bold text-4xl'>Epic Design and Engineering</h1>
+                <h1 className=' font-bold text-4xl'>Portfolio</h1>
                 <p className='max-w-2xl mx-auto'>Lorem ipsum    dolor, sit amet consectetur adipisicing    elit. Id ipsam cumque facere totam cum illum   laudantium rem omnis, ratione iure ducimus,   laboriosam molestias? Rem omnis iste  eligendi sint enim? Ducimus.</p>
             </div>
 

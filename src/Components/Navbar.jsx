@@ -3,10 +3,10 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
-        <div className="navbar z-10 bg-white/10 bg-opacity-30 fixed top-0 left-0 right-0 shadow-sm">
+        <div className="navbar z-10 bg-white/10 bg-opacity-30 fixed backdrop:blur-4xl top-0 left-0 right-0 shadow-sm">
             <div className="w-300 mx-auto flex">
             <div className="flex-1">
-              <Link to='/' className="btn btn-ghost text-xl">Xpartex Ltd</Link>
+              <Link to='/' className="btn btn-primary text-xl">Xpartex Ltd</Link>
             </div>
             <div className="flex-none">
               <div className="dropdown dropdown-end">

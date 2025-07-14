@@ -2,7 +2,7 @@ import img from '../../assets/Contact/ContactUs.jpg'
 
 const ContactUs = () => {
     return (
-<div className="bg-[#D4CCC4] flex flex-col md:flex-row-reverse items-start justify-start py-8 md:py-10 px-0 h-250 ">
+<div className="bg-[#D4CCC4] flex flex-col md:flex-row-reverse items-start justify-start py-8 md:py-30 px-0 h-250 ">
 
       <div className="w-full md:w-1/2 p-0 flex justify-center">
         <img

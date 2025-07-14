@@ -2,6 +2,7 @@ import Laptop from '../../assets/Brand Values/Corporate-design.jpg'
 import laptopANDmobile from '../../assets/Brand Values/responsive-design.jpg'
 import girl from '../../assets/Brand Values/girl.jpg'
 import './BrandValue.css'
+import { Link } from 'react-router';
 
 const BrandValues = () => {
     return (
@@ -30,7 +31,7 @@ const BrandValues = () => {
                     <p className="mb-6">
                     Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
                     </p>
-                    <a href="#" className="btn btn-primary">Learn More</a>
+                    <Link className="btn btn-primary">Learn More</Link>
             </div>
         </div>
 

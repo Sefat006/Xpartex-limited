@@ -20,12 +20,12 @@ const Construction = () => {
                         Construction and Renovation Projects
                     </h1>
                 <p className="text-sm md:text-base leading-relaxed">Lorem ipsum    dolor, sit amet consectetur adipisicing    elit. Id ipsam cumque facere totam cum illum   laudantium rem omnis, ratione iure ducimus,   laboriosam molestias? Rem omnis iste  eligendi sint enim? Ducimus.</p>
+                
                 <Link to='/contactUs'>
                     <button className="btn bg-white/10 backdrop-blur-md border border-white/20 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-white/20 transition-all duration-300">Contact Us</button>
                 </Link>
+                <p className='text-gray-600'>please <span className='font-bold'>Click</span> on Contact Us button to view <span className='font-bold'>Contact Us</span> page</p>
                 </div>
-                
-
             </div>
 
 

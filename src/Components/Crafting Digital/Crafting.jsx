@@ -23,6 +23,7 @@ const Crafting = () => {
                 <Link to='/contactUs'>
                     <button className='btn btn-primary bg-black'>Contact Us</button>
                 </Link>
+                <p className='text-black'>please <span className='font-bold'>Click</span> on Contact Us button to view <span className='font-bold'>Contact Us</span> page</p>
                 </div>
 
             </div>

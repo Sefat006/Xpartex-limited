@@ -1,5 +1,4 @@
 
-import Navbar from './../Components/Navbar';
 import IntroSection from './../Components/IntroSection/IntroSection';
 import Portfolio from './../Components/Portfolio/Portfolio';
 import BrandValues from './../Components/Brand Values/BrandValues';
@@ -9,8 +8,7 @@ import MockUp from './../Components/Mock Up/MockUp';
 import Crafting from './../Components/Crafting Digital/Crafting';
 const Home = () => {
     return (
-            <div className='mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8'>
-                <Navbar></Navbar>
+            <div>
                 <IntroSection></IntroSection>
                 <Portfolio></Portfolio>
                 <BrandValues></BrandValues>

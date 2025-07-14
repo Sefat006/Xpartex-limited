@@ -31,7 +31,7 @@ const WhatWeDo = () => {
         ];
 
     return (
-        <div className='bg-black text-white pt-16'>
+        <div className='bg-black text-white pt-16 pb-10'>
 
             <div  className='text-[#FFD700] justify-center text-center space-y-4 flex flex-col'>
                 <h1 className=' font-bold text-4xl'>What We do</h1>

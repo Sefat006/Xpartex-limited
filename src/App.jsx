@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import IntroSection from './Components/IntroSection/IntroSection'
 import Portfolio from './Components/Portfolio/Portfolio'
 import BrandValues from './Components/Brand Values/BrandValues'
+import Construction from './Construction/Construction'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <IntroSection></IntroSection>
       <Portfolio></Portfolio>
       <BrandValues></BrandValues>
+      <Construction></Construction>
     </div>
   )
 }

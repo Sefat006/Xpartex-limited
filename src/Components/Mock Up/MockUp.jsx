@@ -62,23 +62,17 @@ return (
         className="relative min-h-1/2 bg-cover bg-center flex flex-col md:flex-row items-start justify-start p-4 md:p-12 overflow-hidden"
         style={{ backgroundImage: `url(${backgroundImage})` }}
         >
-        {/* Overlay for background image if needed for contrast/darkness */}
+        
         <div className="absolute inset-0 bg-black opacity-10 z-0"></div>
 
         <div className="relative w-full md:w-full min-h-[400px] md:min-h-[700px] flex flex-col items-center justify-center md:block z-10 mb-16 md:mb-0">
-
-          
           <img
             src={floatingWatercolor}
             alt="Abstract watercolor art"
-           
-            className="absolute top-24 left-10 w-55 h-40 md:w-102 md:h-70 object-cover shadow-xl transform rotate-3 md:top-[25%] md:left-[35%] md:rotate-6 animate-float-x-1"
+            className="absolute top-24=left-10 w-55 h-40 md:w-70 md:h-50 lg:w-102 lg:h-70 object-cover shadow-xl transform md:top-[35%] md:left-[15%] lg:top-[25%] lg:left-[35%] rotate-0 animate-float-x-1"
           />
-
           
-          <div
-            
-            className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-55 h-40 md:w-102 md:h-70 bg-white p-6 shadow-xl text-center flex flex-col justify-center items-center md:bottom-[0%] md:left-[30%] md:rotate-[-4deg] animate-float-x-2">
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-55 h-40 md:w-70 md:h-50 lg:w-102 lg:h-70 bg-white p-6 shadow-xl text-center flex flex-col justify-center items-center md:bottom-[5%] lg:bottom-[0%] md:left-[30%] animate-float-x-2">
             <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-2">MOCKUP</h3>
             <p className="text-sm text-gray-600">READY TO USE</p>
           </div>

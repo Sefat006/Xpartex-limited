@@ -15,7 +15,7 @@ const Construction = () => {
             
             <div  className="relative flex flex-col justify-end h-[60vh]">
 
-                <div  className="w-full max-w-xs sm:max-w-md md:max-w-lg text-white text-left md:space-y-4 mb-28 md:mb-50">
+                <div  className="w-full max-w-xs sm:max-w-md md:max-w-lg text-white text-left md:space-y-4 mb-28 md:mb-10">
                     <h1 className="font-bold sm:text-2xl md:text-3xl lg:text-5xl leading-tight">
                         Construction and Renovation Projects
                     </h1>
